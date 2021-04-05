@@ -1,4 +1,4 @@
-import { Carrinho } from './product.js';
+import { Carrinho } from './models/carrinho.js';
 
 const meuCarrinho = new Carrinho('Padaria do Reinaldo', false);
 
@@ -24,4 +24,4 @@ meuCarrinho.adicionarProdutos(meusItens);
 
 console.log(meuCarrinho.fecharCompra());
 
-console.log(meuCarrinho.resumoDaCompra()('Cartão de Crédito', 3))
+console.log(meuCarrinho.resumoDaCompra('Cartão de Crédito', 3));

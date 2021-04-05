@@ -1,4 +1,4 @@
-const { Carrinho } = require('../product.js');
+const { Carrinho } = require('../models/carrinho.js');
 const faker = require('faker');
 
 let produtos = [];
